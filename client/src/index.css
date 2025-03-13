@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+thead,
+tbody {
+    z-index: -1;
+}
+
+.table-desc {
+    z-index: 1;
+}
+
+.tender-details {
+    z-index: -1;
+}
+
+.scrollbar-custom::-webkit-scrollbar {
+    width: 8px;
+    background-color: #7d1616;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb {
+    background-color: #7d1616;
+    border-radius: 10px;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb:hover {
+    background-color: #ac0505;
+}
